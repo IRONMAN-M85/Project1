@@ -1,0 +1,36 @@
+@media only screen and (max-width:415px) {
+  .container{
+      flex-direction:column;
+  }
+  .logo-text{
+    left: 10px;
+    top: 10px;
+  }
+  nav ul {
+      position:relative;
+      height:6vh
+  }
+  .description_image{
+      height:40vh;
+      width:100vw;
+      overflow: hidden;
+  }
+  .description_img{
+    height: 10vh;
+    width: 95vw;
+  }
+  .description_img:hover{
+    border: 1px red;
+    border-style: dotted;
+  }
+  .info a {
+      font-size:20px;
+  }
+  .details_about{
+      grid:initial;
+  }
+  .doctors_details button{
+    position: relative;
+    left:5px;
+}
+}

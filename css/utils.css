@@ -1,0 +1,16 @@
+.details{
+    height:254px;
+    width:275px;
+    background:rgba(18, 220, 247, 0.863);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.doctors_details buttom{
+    position: relative;
+    left: 13px;
+    top:20px;
+}

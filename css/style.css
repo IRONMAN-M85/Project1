@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cormorant:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+}
+header{
+    background: #0285ff;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo-text{
+    display:flex;
+    position: relative;
+    right:30px;
+}
+
+.logo-text .logo{
+    font-family: 'Caveat', cursive;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left:44px;
+    z-index: 1;
+}
+.logo-text .logo:hover{
+    font-size: 50px;
+    color: rgb(2, 255, 234);
+    cursor: pointer;
+}
+.logo-text .logotop{
+    position: relative;
+    right: 86px;
+    bottom:5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Caveat', cursive;
+    text-transform: capitalize;
+}
+nav ul{
+    height: 10vh;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+nav ul li{
+    list-style:none;
+    padding:20px;
+    font-size:24px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+}
+nav ul li a:hover {
+    color: rgb(2, 255, 234);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size:28px;
+}
+
+.progressbar{
+    height:5px;
+    background-color: #0285ff;
+    width: 0px;
+    animation: progressbar 2s ease-in-out 0s   forwards;
+}
+
+@keyframes progressbar {
+    0%{
+        width:20vw;
+    }
+    70%{
+        width: 80vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+
+
+
+.doctor_description{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+.description_image{
+    height: 600px;
+    width: 1350px;
+    padding: 10px 0px;
+}
+.description_img{
+    height: 20vh;
+    width:1350px;
+    border: black solid 1px;
+    overflow:scroll;
+}
+.description_img:hover{
+    border: black solid 0px;
+    overflow:scroll;
+    height: 50vh;
+    cursor:move;
+    font-size: 25px;
+    letter-spacing: 0.77px;
+    line-height: 1.5;
+    background:rgba(255, 255, 255, 0.616);
+    color:rgb(0, 0, 0);
+}
+
+.section_detail{
+    display: grid;
+    justify-content: center;
+
+}
+.INFO{
+    text-align: center;
+    margin: 25PX 0PX;
+    font-family: 'Kirang Haerang', cursive;
+    color: rgb(207, 20, 20);
+    background-color: rgba(238, 130, 238, 0.37);
+    width:98vw;
+}
+.INFO a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.details_about{
+    display:grid;
+    margin:10px 10px;
+    grid-gap:3px 8px;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-around;
+}
+
+.doctor_image{
+
+}
+.details p{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.doctors_details{
+    color:rgb(0, 0, 0)
+}
+
+
+
+
+.box1{
+    display:flex;
+    height:10vh;
+    background: #0285ff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.box2{
+    height: 144px;
+    width: 144px;
+    background: white;
+    overflow: hidden;
+}
+
+
+
+
+
+
